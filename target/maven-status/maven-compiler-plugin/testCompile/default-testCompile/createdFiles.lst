@@ -1,0 +1,5 @@
+com\nagarro\restapi\base\BaseTest.class
+com\nagarro\restapi\testcase\UsersTest.class
+com\nagarro\restapi\testcase\ActivityTest.class
+com\nagarro\restapi\testcase\PasswordTest.class
+com\nagarro\restapi\testcase\QuoteTest.class

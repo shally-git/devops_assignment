@@ -1,0 +1,5 @@
+com\nagarro\restapi\util\ExtentManager.class
+com\nagarro\restapi\util\Resources.class
+com\nagarro\restapi\util\JSONReader.class
+com\nagarro\restapi\util\PropertiesUtils.class
+com\nagarro\restapi\util\RestClientWrapper.class

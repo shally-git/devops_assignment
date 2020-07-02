@@ -1,0 +1,47 @@
+2020-06-16 15:35:28,236 DEBUG com.nagarro.restapi.base.BaseTest [main] Objects for extent report created succsessfully
+2020-06-16 15:35:28,257 DEBUG com.nagarro.restapi.base.BaseTest [main] -----createUserSession method starts----
+2020-06-16 15:35:33,349 DEBUG com.nagarro.restapi.base.BaseTest [main] User token:Xs7Ymtk94EtC6jNAfCbkoHkzI11rrJzt8sxHatSJroqbEaJi741MJcEpi7lJGakktm6FFEG1yuVAuuMkqw0gWA==
+2020-06-16 15:35:33,383 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---FollowActivity method stats----
+2020-06-16 15:35:34,641 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] {"status":"ok"}
+2020-06-16 15:35:34,647 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---FollowActivity method ends----
+2020-06-16 15:35:34,898 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:34,901 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---GetActivity method stats----
+2020-06-16 15:35:36,165 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] {"page":1,"last_page":true,"activities":[{"activity_id":12049,"owner_type":"User","owner_id":"priyankakumari","owner_value":"priyankakumari","action":"favorited","trackable_id":63473,"trackable_type":"Quote","trackable_value":"\"Never let your schooling interfere with your education.\" - Priyanka","message":"User priyankakumari favorited Quote \"Never let your schooling interfere with your education.\" - Priyanka"},{"activity_id":12047,"owner_type":"User","owner_id":"priyankakumari","owner_value":"priyankakumari","action":"favorited","trackable_id":63472,"trackable_type":"Quote","trackable_value":"\"Never let your schooling interfere with your education.\" - Priyanka","message":"User priyankakumari favorited Quote \"Never let your schooling interfere with your education.\" - Priyanka"}]}
+2020-06-16 15:35:36,251 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---GetActivity method ends----
+2020-06-16 15:35:36,289 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:36,290 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---DeleteActivity method stats----
+2020-06-16 15:35:37,557 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] {"status":"ok"}
+2020-06-16 15:35:37,557 DEBUG com.nagarro.restapi.testcase.ActivityTest [main] ---DeleteActivity method ends----
+2020-06-16 15:35:37,636 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:37,637 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] ---ForgotPassword method stats----
+2020-06-16 15:35:39,109 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] {"message": "A reset link has been emailed."}
+2020-06-16 15:35:39,117 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] ---ForgotPassword method stats----
+2020-06-16 15:35:39,154 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:39,156 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] ---ResetPassword method stats----
+2020-06-16 15:35:40,405 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] {"error_code": 33, "message": "Invalid password reset token."}
+2020-06-16 15:35:40,413 DEBUG com.nagarro.restapi.testcase.PasswordTest [main] ---ResetPassword method stats----
+2020-06-16 15:35:40,441 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:40,442 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---AddQuote method stats----
+2020-06-16 15:35:42,297 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] {"id":63474,"dialogue":false,"private":false,"tags":[],"url":"https://favqs.com/quotes/priyanka/63474-never-let-you-","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"Priyanka","author_permalink":"priyanka","body":"Never let your schooling interfere with your education.","user_details":{"favorite":true,"upvote":false,"downvote":false,"hidden":false}}
+2020-06-16 15:35:42,322 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---AddQuote method ends----
+2020-06-16 15:35:42,384 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:42,385 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---FavQuote method stats----
+2020-06-16 15:35:43,648 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] {"id":63474,"dialogue":false,"private":false,"tags":[],"url":"https://favqs.com/quotes/priyanka/63474-never-let-you-","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"Priyanka","author_permalink":"priyanka","body":"Never let your schooling interfere with your education.","user_details":{"favorite":true,"upvote":false,"downvote":false,"hidden":false}}
+2020-06-16 15:35:43,677 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---FavQuote method stats----
+2020-06-16 15:35:43,729 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:43,730 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---HideQuote method stats----
+2020-06-16 15:35:45,036 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] {"id":63474,"dialogue":false,"private":false,"tags":[],"url":"https://favqs.com/quotes/priyanka/63474-never-let-you-","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"Priyanka","author_permalink":"priyanka","body":"Never let your schooling interfere with your education.","user_details":{"favorite":true,"upvote":false,"downvote":false,"hidden":true}}
+2020-06-16 15:35:45,129 DEBUG com.nagarro.restapi.testcase.QuoteTest [main] ---HideQuote method ends----
+2020-06-16 15:35:45,230 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:45,232 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---addNewUserFailTest method starts----
+2020-06-16 15:35:46,788 DEBUG com.nagarro.restapi.testcase.UsersTest [main] {"error_code": 32, "message": "Username has already been taken; Email has already been taken"}
+2020-06-16 15:35:46,812 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---addNewUserFailTest method ends----
+2020-06-16 15:35:46,869 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:46,870 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---getUserTest method starts----
+2020-06-16 15:35:48,143 DEBUG com.nagarro.restapi.testcase.UsersTest [main] {"login":"priyankakumari","pic_url":"https://favqs.s3.amazonaws.com/avatar.png","public_favorites_count":48,"following":1,"followers":0,"pro":false,"account_details":{"email":"priyankakhushbu@gmail.com","private_favorites_count":0}}
+2020-06-16 15:35:48,144 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---getUserTest method ends----
+2020-06-16 15:35:48,208 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.
+2020-06-16 15:35:48,209 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---UpdateUser method starts----
+2020-06-16 15:35:49,438 DEBUG com.nagarro.restapi.testcase.UsersTest [main] {"message": "User successfully updated."}
+2020-06-16 15:35:49,458 DEBUG com.nagarro.restapi.testcase.UsersTest [main] ---UpdateUser method ends----
+2020-06-16 15:35:49,524 DEBUG com.nagarro.restapi.base.BaseTest [main] Extent report object flushed successfully.

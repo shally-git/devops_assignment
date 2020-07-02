@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="16" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="16169" started-at="2020-06-16T15:35:33 IST" finished-at="2020-06-16T15:35:49 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16169" started-at="2020-06-16T15:35:33 IST" finished-at="2020-06-16T15:35:49 IST">
+      <class name="com.nagarro.restapi.testcase.ActivityTest">
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="startTest" is-config="true" duration-ms="5" started-at="2020-06-16T15:35:33 IST" finished-at="2020-06-16T15:35:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.ActivityTest.FollowActivity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="FollowActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="FollowActivity" duration-ms="1277" started-at="2020-06-16T15:35:33 IST" description="Follow an activity" finished-at="2020-06-16T15:35:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowActivity -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:34 IST" finished-at="2020-06-16T15:35:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FollowActivity status=SUCCESS method=ActivityTest.FollowActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="reportFlush" is-config="true" duration-ms="235" started-at="2020-06-16T15:35:34 IST" finished-at="2020-06-16T15:35:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:34 IST" finished-at="2020-06-16T15:35:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.ActivityTest.GetActivity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="GetActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="GetActivity" duration-ms="1350" started-at="2020-06-16T15:35:34 IST" description="Get activity of the user having user session" finished-at="2020-06-16T15:35:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetActivity -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:36 IST" finished-at="2020-06-16T15:35:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetActivity status=SUCCESS method=ActivityTest.GetActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="reportFlush" is-config="true" duration-ms="37" started-at="2020-06-16T15:35:36 IST" finished-at="2020-06-16T15:35:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:36 IST" finished-at="2020-06-16T15:35:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.ActivityTest.DeleteActivity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="DeleteActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="DeleteActivity" duration-ms="1267" started-at="2020-06-16T15:35:36 IST" description="To delete any activity of a user" depends-on-methods="com.nagarro.restapi.testcase.ActivityTest.GetActivity" finished-at="2020-06-16T15:35:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteActivity -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:37 IST" finished-at="2020-06-16T15:35:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteActivity status=SUCCESS method=ActivityTest.DeleteActivity()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.ActivityTest@b59d31]" name="reportFlush" is-config="true" duration-ms="77" started-at="2020-06-16T15:35:37 IST" finished-at="2020-06-16T15:35:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.nagarro.restapi.testcase.ActivityTest -->
+      <class name="com.nagarro.restapi.testcase.UsersTest">
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:45 IST" finished-at="2020-06-16T15:35:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.UsersTest.addNewUserFailTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="addNewUserFailTest()[pri:2, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="addNewUserFailTest" duration-ms="1581" started-at="2020-06-16T15:35:45 IST" description="When a user is already existing" finished-at="2020-06-16T15:35:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserFailTest -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="extentReportLog" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:46 IST" finished-at="2020-06-16T15:35:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserFailTest status=SUCCESS method=UsersTest.addNewUserFailTest()[pri:2, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="reportFlush" is-config="true" duration-ms="56" started-at="2020-06-16T15:35:46 IST" finished-at="2020-06-16T15:35:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:46 IST" finished-at="2020-06-16T15:35:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.UsersTest.getUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="getUserTest()[pri:3, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="getUserTest" duration-ms="1274" started-at="2020-06-16T15:35:46 IST" description="Get specific user" finished-at="2020-06-16T15:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="reportFlush" is-config="true" duration-ms="63" started-at="2020-06-16T15:35:48 IST" finished-at="2020-06-16T15:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="extentReportLog" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:48 IST" finished-at="2020-06-16T15:35:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUserTest status=SUCCESS method=UsersTest.getUserTest()[pri:3, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:48 IST" finished-at="2020-06-16T15:35:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.UsersTest.UpdateUser() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="UpdateUser()[pri:4, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="UpdateUser" duration-ms="1249" started-at="2020-06-16T15:35:48 IST" description="Update a specific user" finished-at="2020-06-16T15:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:49 IST" finished-at="2020-06-16T15:35:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateUser status=SUCCESS method=UsersTest.UpdateUser()[pri:4, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.UsersTest@1dd02175]" name="reportFlush" is-config="true" duration-ms="64" started-at="2020-06-16T15:35:49 IST" finished-at="2020-06-16T15:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.nagarro.restapi.testcase.UsersTest -->
+      <class name="com.nagarro.restapi.testcase.PasswordTest">
+        <test-method status="PASS" signature="ForgotPassword()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="ForgotPassword" duration-ms="1481" started-at="2020-06-16T15:35:37 IST" description="When user forgot the password" finished-at="2020-06-16T15:35:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="startTest" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:37 IST" finished-at="2020-06-16T15:35:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.PasswordTest.ForgotPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="extentReportLog" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:39 IST" finished-at="2020-06-16T15:35:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPassword status=SUCCESS method=PasswordTest.ForgotPassword()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="reportFlush" is-config="true" duration-ms="36" started-at="2020-06-16T15:35:39 IST" finished-at="2020-06-16T15:35:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:39 IST" finished-at="2020-06-16T15:35:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.PasswordTest.ResetPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="ResetPassword()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="ResetPassword" duration-ms="1257" started-at="2020-06-16T15:35:39 IST" description="When user forgot the password" finished-at="2020-06-16T15:35:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="extentReportLog" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:40 IST" finished-at="2020-06-16T15:35:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ResetPassword status=SUCCESS method=PasswordTest.ResetPassword()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.PasswordTest@62fdb4a6]" name="reportFlush" is-config="true" duration-ms="27" started-at="2020-06-16T15:35:40 IST" finished-at="2020-06-16T15:35:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.nagarro.restapi.testcase.PasswordTest -->
+      <class name="com.nagarro.restapi.base.BaseTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.nagarro.restapi.base.BaseTest@4df828d7]" name="setupTest" is-config="true" duration-ms="5234" started-at="2020-06-16T15:35:28 IST" finished-at="2020-06-16T15:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+      </class> <!-- com.nagarro.restapi.base.BaseTest -->
+      <class name="com.nagarro.restapi.testcase.QuoteTest">
+        <test-method status="PASS" signature="AddQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="AddQuote" duration-ms="1881" started-at="2020-06-16T15:35:40 IST" description="Add a new quote" finished-at="2020-06-16T15:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuote -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="startTest" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:40 IST" finished-at="2020-06-16T15:35:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.QuoteTest.AddQuote() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:42 IST" finished-at="2020-06-16T15:35:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddQuote status=SUCCESS method=QuoteTest.AddQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="reportFlush" is-config="true" duration-ms="60" started-at="2020-06-16T15:35:42 IST" finished-at="2020-06-16T15:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="startTest" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:42 IST" finished-at="2020-06-16T15:35:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.QuoteTest.FavQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="FavQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="FavQuote" duration-ms="1293" started-at="2020-06-16T15:35:42 IST" description="Mark a quote as favourite" depends-on-methods="com.nagarro.restapi.testcase.QuoteTest.AddQuote" finished-at="2020-06-16T15:35:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FavQuote -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="extentReportLog" is-config="true" duration-ms="2" started-at="2020-06-16T15:35:43 IST" finished-at="2020-06-16T15:35:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FavQuote status=SUCCESS method=QuoteTest.FavQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="reportFlush" is-config="true" duration-ms="48" started-at="2020-06-16T15:35:43 IST" finished-at="2020-06-16T15:35:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="startTest" is-config="true" duration-ms="0" started-at="2020-06-16T15:35:43 IST" finished-at="2020-06-16T15:35:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.restapi.testcase.QuoteTest.HideQuote() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="HideQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="HideQuote" duration-ms="1399" started-at="2020-06-16T15:35:43 IST" description="Hide a Quote" finished-at="2020-06-16T15:35:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HideQuote -->
+        <test-method status="PASS" signature="extentReportLog(org.testng.ITestResult)[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="extentReportLog" is-config="true" duration-ms="1" started-at="2020-06-16T15:35:45 IST" finished-at="2020-06-16T15:35:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HideQuote status=SUCCESS method=QuoteTest.HideQuote()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportLog -->
+        <test-method status="PASS" signature="reportFlush()[pri:0, instance:com.nagarro.restapi.testcase.QuoteTest@11e21d0e]" name="reportFlush" is-config="true" duration-ms="100" started-at="2020-06-16T15:35:45 IST" finished-at="2020-06-16T15:35:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.nagarro.restapi.testcase.QuoteTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
