@@ -39,9 +39,9 @@ pipeline
 			{
 				rtMavenDeployer (
                     id: 'deployer',
-                    serverId: '123456789@artifactory',
-                    releaseRepo: 'test-pipeline',
-                    snapshotRepo: 'test-pipeline'
+                    serverId: 'art_devops_assignment',
+                    releaseRepo: 'devopsforqa_assignment_Shally',
+                    snapshotRepo: 'devopsforqa_assignment_Shally'
                 )
                 rtMavenRun (
                     pom: 'pom.xml',
@@ -49,7 +49,7 @@ pipeline
                     deployerId: 'deployer',
                 )
                 rtPublishBuildInfo (
-                    serverId: '123456789@artifactory',
+                    serverId: 'art_devops_assignment',
                 )
 			}
 		}
